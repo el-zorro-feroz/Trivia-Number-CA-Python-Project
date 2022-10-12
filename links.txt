@@ -1,0 +1,3 @@
+https://github.com/pocket-red-fox/abc_work.git
+https://app.getpostman.com/join-team?invite_code=b848af27d4d52f3b69f20e5ea88e0fec&target_code=8c3b3a690b059a97014f94bb3509828f
+http://numbersapi.com/random?json
