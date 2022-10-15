@@ -5,6 +5,7 @@ from core.entities.trivia_number import TriviaNumber
 from core.repositories.trivia_repository import TriviaRepository
 from core.failures.specific_num_failure import LowerThenNullFailure, NotEnteredFailure
 from core.failures.num_parc_failure import NumParsFailure
+from infra.api.numbersapi_trivia_repository import NumbersapiTriviaRepository
 
 
 class SpecificTrvUseCaseRequest(UseCaseRequest):
@@ -17,7 +18,7 @@ class SpecificTrvUseCaseResponse(UseCaseResponse):
 
 class SpecificTrvUseCase(UseCase):
     def call(self, request: SpecificTrvUseCaseRequest) -> SpecificTrvUseCaseResponse:
-        _repository: TriviaRepository = None
+        _repository: TriviaRepository = NumbersapiTriviaRepository
         _response = SpecificTrvUseCaseResponse()
 
         if request.num is None:
