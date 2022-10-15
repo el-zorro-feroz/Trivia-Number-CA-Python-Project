@@ -8,7 +8,7 @@ from core.entities.trivia_number import TriviaNumber
 class TriviaRepository:
 
     @abstractmethod
-    def get_concrete_num_meaning(self) -> TriviaNumber:
+    def get_concrete_num_meaning(self, num: int) -> TriviaNumber:
         return NotImplemented
 
     @abstractmethod

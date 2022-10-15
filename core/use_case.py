@@ -19,7 +19,7 @@ class UseCaseRequest(ABC):
     """
 
 
-class UseCaseResponse(object):
+class UseCaseResponse(ABC):
     """ ABC UseCase Response """
 
     """
@@ -64,7 +64,7 @@ class UseCase(ABC):
                 else:  # Settin` Response Error if data is`t valid
                     _response.error = ServerFailure()
                     
-            else:  # Same for server response data validation, if User ID is`t valid, sendin` correct error in response
+            else:  # Same for server response data validation, if User ID isn`t valid, sendin` correct error in response
                 _response = ChangeUsernameUseCaseResponse()
                 _response.error = InvalidIDFailure()
                 

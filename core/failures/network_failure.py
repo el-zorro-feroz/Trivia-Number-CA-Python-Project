@@ -7,3 +7,5 @@ class NetworkFailure(Failure):
 
 class ServerFailure(Failure):
     error_message = "Response was interrupted by Server"
+
+
