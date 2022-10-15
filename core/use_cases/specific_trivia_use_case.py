@@ -18,7 +18,7 @@ class SpecificTrvUseCaseResponse(UseCaseResponse):
 
 class SpecificTrvUseCase(UseCase):
     def call(self, request: SpecificTrvUseCaseRequest) -> SpecificTrvUseCaseResponse:
-        _repository: TriviaRepository = NumbersapiTriviaRepository
+        _repository: TriviaRepository = NumbersapiTriviaRepository()
         _response = SpecificTrvUseCaseResponse()
 
         if request.num is None:
