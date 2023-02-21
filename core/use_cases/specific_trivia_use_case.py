@@ -1,5 +1,3 @@
-# SpecificTriviaUseCase(UseCase)
-# UR JOB: Create UseCase for retrievin` specific Trivia Numbers
 from core.use_case import UseCaseRequest, UseCaseResponse, UseCase
 from core.entities.trivia_number import TriviaNumber
 from core.repositories.trivia_repository import TriviaRepository
