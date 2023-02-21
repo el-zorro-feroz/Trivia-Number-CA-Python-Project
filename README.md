@@ -2,5 +2,5 @@
 
 Clear architecture homework in python
 
-CC pocket-red-fox
-CC danwirele
+- CC pocket-red-fox
+- CC danwirele
