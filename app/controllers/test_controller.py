@@ -1,6 +1,3 @@
-# UR JOB: Write Abstract UseCase logic for ur UseCases
-# Use comments as an abstract example
-# Try to run app and get valid tests
 from core.use_cases.random_trivia_use_case import RndTriviaNumUseCase, RndTriviaNumUseCaseResponse, RndTriviaNumUseCaseRequest
 from core.use_cases.specific_trivia_use_case import SpecificTrvUseCase, SpecificTrvUseCaseResponse, SpecificTrvUseCaseRequest
 
