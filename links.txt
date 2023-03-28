@@ -1,3 +1,0 @@
-https://github.com/pocket-red-fox/Trivia-Number-CA-Python-Project
-https://app.getpostman.com/join-team?invite_code=b848af27d4d52f3b69f20e5ea88e0fec&target_code=5eaa754893268cb2720929ca417ad190
-http://numbersapi.com/random?json
