@@ -1,4 +1,3 @@
+# Miscellaneous related
 .idea/
-
-.zip
-.txt
+*.txt
